@@ -1,2 +1,4 @@
 .env/
 data/
+datasets/
+__pycache__/
