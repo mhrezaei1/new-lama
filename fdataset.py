@@ -1,3 +1,5 @@
+from utils import load_jsonl_dataset
+
 def get_TREx_parameters(data_path_pre="datasets/"):
     """Return TREx dataset parameters."""
     relations = load_jsonl_dataset(f"{data_path_pre}relations.jsonl")

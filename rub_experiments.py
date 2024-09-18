@@ -1,6 +1,7 @@
 from models import LanguageModel
 from utils import load_jsonl_dataset, batchify, save_results
 from evaluation import precision_at_1, get_ranking
+from fdataset import get_dataset_parameters
 import argparse
 import os
 
